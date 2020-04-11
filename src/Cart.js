@@ -11,7 +11,7 @@ const Cart = props => {
     console.log(props);
     return (
     <div className="cart">
-        {products.map((product) => {
+        {products.map((product, index) => {
         return (
             <CartItem
             product={product}
